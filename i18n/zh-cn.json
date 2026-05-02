@@ -200,5 +200,40 @@
     "nm_notif_update_checking": "正在检查更新...",
     "nm_notif_update_available": "发现新版本：{latest}（当前 {current}）",
     "nm_notif_update_up_to_date": "已是最新版本（{current}）。",
-    "nm_notif_update_failed": "检查更新失败：{reason}"
+    "nm_notif_update_failed": "检查更新失败：{reason}",
+
+    "nm_notif_var_value_object": "对象",
+    "nm_notif_var_unknown": "未知",
+    "nm_notif_var_replayed_message": "{count} 项操作",
+    "nm_notif_var_engine_enabled": "已启用",
+    "nm_notif_var_engine_disabled": "已禁用",
+
+    "nm_notif_summary_generating": "正在生成总结…",
+    "nm_notif_summary_updated": "总结已更新",
+    "nm_notif_summary_failed": "总结失败",
+
+    "nm_notif_api_sending": "正在发送请求…",
+    "nm_notif_api_completed": "请求已完成",
+    "nm_notif_api_failed": "请求失败",
+
+    "nm_notif_theme_applied": "主题已激活",
+    "nm_notif_theme_removed": "主题已停用",
+
+    "nm_notif_cloud_detected": "检测到云角色卡",
+    "nm_notif_cloud_detected_named": "检测到云角色卡：{name}",
+    "nm_notif_cloud_declined": "已拒绝",
+    "nm_notif_cloud_declined_remembered": "已拒绝（已记住此角色卡的选择）",
+    "nm_notif_cloud_fetching": "正在获取清单…",
+    "nm_notif_cloud_fetching_named": "正在为 {cloudId} 获取清单…",
+    "nm_notif_cloud_found_resources": "发现 {count} 项资源{types}",
+    "nm_notif_cloud_manifest_failed": "获取清单失败",
+
+    "nm_notif_loaded_message": "所有模块已就绪",
+    "nm_notif_module_error": "发生错误",
+
+    "nm_notif_test_title": "NIGHTMARE 测试",
+    "nm_notif_test_success": "操作已成功完成。",
+    "nm_notif_test_error": "出错了！",
+    "nm_notif_test_warning": "请检查你的配置。",
+    "nm_notif_test_info": "这是一条测试通知。"
 }
