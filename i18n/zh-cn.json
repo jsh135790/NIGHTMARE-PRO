@@ -194,6 +194,7 @@
     "nm_update_last_checked": "上次检查",
     "nm_update_check_now": "立即检查",
     "nm_update_open_release": "打开发布页",
+    "nm_update_developer_docs": "开发者文档",
     "nm_update_new": "NEW",
     "nm_update_up_to_date": "你已使用最新版本。",
     "nm_notif_update_title": "NIGHTMARE 更新",
