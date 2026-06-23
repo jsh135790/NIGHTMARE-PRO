@@ -22,7 +22,7 @@
     "nm_beautify_inactive_hint": "主题已关闭，当前使用 ST 原始主题。",
 
     "nm_hidden_enable": "启用隐藏楼层指示器",
-    "nm_hidden_hint": "在输入框上方显示当前被隐藏（is_system）的楼层数，并可一键全部取消隐藏。包含 /hide 隐藏的楼层与系统/旁白消息。",
+    "nm_hidden_hint": "显示当前被隐藏的楼层数(包含系统消息)，支持一键取消隐藏.",
     "nm_hidden_count": "已隐藏 {count} 层",
     "nm_hidden_unhide_all": "取消隐藏全部",
     "nm_hidden_confirm_body": "确定取消隐藏全部 {count} 层吗？",
@@ -30,7 +30,7 @@
     "nm_hidden_confirm_cancel": "取消",
 
     "nm_watermark_enable": "启用水印",
-    "nm_watermark_hint": "进入聊天时在顶部显示一枚水印胶囊。可勾选要展示的内容，各段以「·」分隔并配有图标，开启与切换时带有入场动画。",
+    "nm_watermark_hint": "进入聊天时在顶部显示水印。可在此处勾选想要显示在水印中的内容。",
     "nm_watermark_seg_pluginname": "插件名",
     "nm_watermark_seg_char": "角色名",
     "nm_watermark_seg_user": "用户名",
@@ -40,7 +40,7 @@
 
     "nm_search_enable": "启用聊天搜索",
     "nm_search_hotkey": "启用快捷键 (Ctrl+Shift+F)",
-    "nm_search_hint": "在聊天界面右上角注入搜索按钮，或按 Ctrl+Shift+F 打开。搜索整个聊天（含未加载的楼层），点结果即跳转并高亮；跳到很靠前的楼层会先加载其之前的内容。",
+    "nm_search_hint": "使用聊天界面的搜索按钮或按快捷键打开，点击结果即可跳转并高亮显示。",
     "nm_search_placeholder": "搜索本次聊天…",
     "nm_search_title": "聊天搜索",
     "nm_search_speaker_all": "全部",
@@ -63,7 +63,7 @@
     "nm_var_strip_none": "不处理（使用酒馆正则隐藏）",
     "nm_var_strip_hide": "仅隐藏（测试，可能观感不佳）",
     "nm_var_strip_full": "完全剥离（从消息中移除）",
-    "nm_var_tag_hint": "标签格式：<nm-data>...</nm-data> — 函数：setChatVar, addChatVar, incChatVar, decChatVar, delChatVar, pushChatVar, unshiftChatVar, popChatVar, shiftChatVar, removeAtChatVar, removeChatVar",
+    "nm_var_tag_hint": "标签格式：<nm-data>...</nm-data> — 具体函数请参考文档。",
     "nm_var_disabled_hint": "变量引擎已关闭，AI 消息将不会被解析。",
 
     "nm_var_source_title": "变量来源",
@@ -129,7 +129,7 @@
 
     "nm_sec_preset_manager": "预设管理",
     "nm_preset_title": "提示词预设",
-    "nm_preset_hint": "保存可复用的 system prompt 片段。点击眼睛图标可启用任意数量的预设，每个被启用的预设都会在每次生成时通过 ST 的 extension_prompt 通道注入。",
+    "nm_preset_hint": "保存可复用的提示词片段。点击眼睛图标可启用/关闭，每个被启用的提示词片段都会在生成时注入。",
     "nm_preset_add": "添加",
     "nm_preset_empty": "尚无预设。点击「添加」创建一个。",
     "nm_preset_enable_tooltip": "启用",
@@ -151,7 +151,7 @@
     "nm_misc_cloud_desc": "从云存储服务加载和同步角色卡。",
     "nm_misc_empty": "此分类暂无更多内容，更多工具敬请期待。",
 
-    "nm_sec_cloud": "云端",
+    "nm_sec_cloud": "云载入",
     "nm_cloud_server_url": "服务器地址",
     "nm_cloud_api_key": "API 密钥",
     "nm_cloud_api_key_hint": "在云端账户中心 → API Keys 页面生成。",
@@ -175,9 +175,9 @@
     "nm_cloud_auto_detect": "聊天中自动检测云角色卡",
     "nm_cloud_auto_detect_hint": "当打开包含云 ID 的角色时，自动询问是否向云端查询其资源清单。",
     "nm_cloud_auto_refresh_regex_label": "云端正则安装后自动刷新面板",
-    "nm_cloud_auto_refresh_regex_desc": "在安装云端正则脚本后合成一次 CHAT_CHANGED 事件，使 ST 的 Regex 面板立刻重建 Character Scoped 列表。副作用：其它监听该事件的扩展（token 统计、变量回放、主题重新应用等）会像你切换了一次聊天那样各跑一次，通常无害。如感觉多余可关闭；关闭后可通过手动切换聊天来刷新面板。",
-    "nm_cloud_detected_section": "已记住的云卡",
-    "nm_cloud_detected_empty": "暂未记住任何云卡决定。",
+    "nm_cloud_auto_refresh_regex_desc": "在安装云端正则脚本后触发 CHAT_CHANGED 事件。副作用：其它监听该事件的扩展也会接收到该事件，通常无害。关闭后可通过手动切换聊天来刷新面板。",
+    "nm_cloud_detected_section": "已记住的云角色卡",
+    "nm_cloud_detected_empty": "暂未记住任何云角色卡。",
     "nm_cloud_reset_decisions": "全部重置",
 
     "nm_cloud_popup_title": "检测到云角色卡",
