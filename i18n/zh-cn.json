@@ -138,7 +138,7 @@
 
     "nm_sec_preset_manager": "预设管理",
     "nm_preset_title": "提示词预设",
-    "nm_preset_hint": "保存可复用的提示词片段。点击眼睛图标可启用/关闭，每个被启用的提示词片段都会在生成时注入。",
+    "nm_preset_hint": "保存可复用的提示词片段。点击状态光点可启用/关闭，每个被启用的提示词片段都会在生成时注入。",
     "nm_preset_add": "添加",
     "nm_preset_empty": "尚无预设。点击「添加」创建一个。",
     "nm_preset_enable_tooltip": "启用",
