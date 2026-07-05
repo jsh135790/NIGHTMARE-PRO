@@ -87,6 +87,7 @@
     "nm_var_prompt_hint": "向 AI 提示词中注入变量语法说明和当前变量状态。",
     "nm_var_prompt_template": "提示词模板",
     "nm_var_prompt_template_hint": "占位符：{{VARIABLES}} 将被替换为当前变量状态的 JSON。",
+    "nm_var_placeholder_missing": "模板缺少 {{VARIABLES}} 占位符 —— 当前变量状态将不会被注入。",
     "nm_var_prompt_template_reset": "恢复默认",
 
     "nm_var_api_endpoint": "端点地址",
@@ -98,9 +99,11 @@
     "nm_var_api_max_tokens": "最大输出 Token",
     "nm_var_api_test": "测试连接",
     "nm_var_api_analyze": "立即分析",
+    "nm_var_api_no_anchor": "当前聊天中没有可供分析的 AI 消息",
 
     "nm_viewer_search": "搜索变量...",
     "nm_viewer_empty": "当前聊天中没有变量。",
+    "nm_viewer_engine_off": "变量引擎已关闭。开启后即可查看和编辑变量。",
 
     "nm_var_coming_soon": "即将推出",
 
@@ -279,10 +282,12 @@
     "nm_notif_summary_generating": "正在生成总结…",
     "nm_notif_summary_updated": "总结已更新",
     "nm_notif_summary_failed": "总结失败",
+    "nm_notif_summary_aborted": "总结已取消",
 
     "nm_notif_api_sending": "正在发送请求…",
     "nm_notif_api_completed": "请求已完成",
     "nm_notif_api_failed": "请求失败",
+    "nm_notif_api_aborted": "请求已取消",
 
     "nm_notif_theme_applied": "主题已激活",
     "nm_notif_theme_removed": "主题已停用",
