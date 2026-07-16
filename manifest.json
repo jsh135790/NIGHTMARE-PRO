@@ -7,7 +7,7 @@
     "js": "dist/index.js",
     "css": "",
     "author": "NIGHTMARE",
-    "version": "2.2.3",
+    "version": "2.2.4",
     "homePage": "https://github.com/jsh135790/NIGHTMARE-PRO",
     "auto_update": true,
     "minimum_client_version": "1.12.0",
