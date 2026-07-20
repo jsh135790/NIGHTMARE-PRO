@@ -222,7 +222,17 @@
     "nm_preset_enabled": "启用",
     "nm_preset_select_hint": "在上方列表中选择一个预设进行编辑，或新建一个。",
 
-    "nm_misc_empty": "此分类暂无更多内容，更多工具敬请期待。",
+    "nm_misc_custom_log": "自定义日志",
+    "nm_misc_log_mode": "模式",
+    "nm_misc_log_mode_solid": "实色",
+    "nm_misc_log_mode_gradient": "渐变",
+    "nm_misc_log_prefix_color": "前缀颜色",
+    "nm_misc_log_content_color": "内容颜色",
+    "nm_misc_log_gradient_color_1": "颜色 1",
+    "nm_misc_log_gradient_color_2": "颜色 2",
+    "nm_misc_log_preview": "预览",
+    "nm_misc_log_preview_prefix": "[NIGHTMARE][变量]",
+    "nm_misc_log_preview_content": " 已更新聊天变量",
 
     "nm_sec_cloud": "云载入",
     "nm_cloud_server_url": "服务器地址",
